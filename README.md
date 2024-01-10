@@ -3,12 +3,12 @@ voice assistant for salut speach
 
 # Installation
 1. Создать .env файл
-'''
+```
 AUTH_DATA="<auth_data строка из аккаунта разработчика сбер id>"
 ACCESS_TOKEN="Bearer токен, можно получить из файлов ...example_no_file.py. Необходим для ручного тестирования файлов ..._example.py"
 SYNTHESIS_HOST="smartspeech.sber.ru"
 RECOGNIZE_HOST="smartspeech.sber.ru"
-'''
+```
    
 3. Установить сертификаты безопастности Минцифры, инструкция есть в документации сбера и Госуслугах. Сами сертификаты также можно скачать с госуслуг.
 4. Поместить файлы russian_trusted_root_ca.cer и russian_trusted_sub_ca.cer в папку salut_speach_example если они отсутствуют.
