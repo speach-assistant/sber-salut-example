@@ -9,7 +9,6 @@ ACCESS_TOKEN="Bearer токен, можно получить из файлов .
 SYNTHESIS_HOST="smartspeech.sber.ru"
 RECOGNIZE_HOST="smartspeech.sber.ru"
 ```
-   
 3. Установить сертификаты безопастности Минцифры, инструкция есть в документации сбера и Госуслугах. Сами сертификаты также можно скачать с госуслуг.
 4. Поместить файлы russian_trusted_root_ca.cer и russian_trusted_sub_ca.cer в папку salut_speach_example если они отсутствуют.
 
